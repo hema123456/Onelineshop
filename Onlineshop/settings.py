@@ -66,7 +66,7 @@ MIDDLEWARE = [
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 
-ROOT_URLCONF = 'Onelineshop.urls'
+ROOT_URLCONF = 'Onlineshop.urls'
 
 TEMPLATES = [
     {
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Onelineshop.wsgi.application'
+WSGI_APPLICATION = 'Onlineshop.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
