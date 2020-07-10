@@ -1,9 +1,9 @@
 /**
  * Created by hippo on 2020/6/14.
  */
-import axios from 'axios'
+// import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:8080/mock'
+// axios.defaults.baseURL = 'http://localhost:8080/mock'
 //
 // // http request 拦截器
 // axios.interceptors.request.use(
