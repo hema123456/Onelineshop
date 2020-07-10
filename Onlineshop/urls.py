@@ -45,7 +45,7 @@ router.register(r'users', uview.UserViewSet, basename='users')
 
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
     path('xadmin/', xadmin.site.urls),
     path('ueditor/', include('DjangoUeditor.urls')),
     path('docs/', include_docs_urls(title=API_TITLE, description=API_DESCRIPTION))
