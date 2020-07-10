@@ -1,0 +1,197 @@
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+body, html
+  line-height: 1.7
+  color: #444
+  font-size: 14px
+  font-weight : lighter
+  font-family: "Microsoft YaHei", "MicrosoftJhengHei", STHeiti, MingLiu, Arial
+
+h1,h2,h3,h4,h5,h6
+  font-weight : lighter
+  letter-spacing: 1px
+  text-transform: uppercase
+
+a,
+a:hover
+  text-decoration : none
+
+img
+  display :block
+  max-width : 100%
+
+label
+  display :block
+  margin : 5px auto 5px
+
+textarea ,input
+  display :block
+  margin : 5px 0 5px 0
+  border: 1px solid #dce0e0
+  border-radius: 4px
+  &:focus
+    border-color: black
+
+.main-page
+  padding-top: 145px
+
+.container
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+  width : 750px
+
+.title
+  color: black
+  font-size: 25px
+  display:block
+  margin: 15px auto 15px auto
+  padding : 0 10px 0 10px
+
+.text
+  display :block
+  padding :0 10px 0 10px
+
+.b
+  color : #333
+  font-weight :bold
+
+.red
+  color: red
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.clearf:before,
+.clearf:after
+  content:' '
+  display: block
+  clear: both
+
+@media (min-width: 768px) /*当宽度大于768px时触发*/
+  .container
+    width: 750px
+
+
+@media (min-width: 992px) /*当宽度大于992px时触发*/
+  .container
+    width: 970px
+
+@media (min-width: 1200px) /*当宽度大于1200px时触发*/
+  .container
+    width: 1170px
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12
+  display : block
+  position : relative
+  min-height : 1px
+  padding-right: 15px
+  padding-left: 15px
+  float: left
+
+.col-1
+  width : 8.33333333%
+.col-2
+  width : 16.66666667%
+.col-3
+  width : 25%
+.col-4
+  width : 33.33333333%
+.col-5
+  width : 41.66666667%
+.col-6
+  width : 50%
+.col-7
+  width : 58.33333333%
+.col-8
+  width : 66.66666667%
+.col-9
+  width : 75%
+.col-10
+  width : 83.33333333%
+.col-11
+  width : 91.66666667%
+.col-12
+  width : 100%
+
+
+
+.product
+  position: relative
+  display: block
+  margin-bottom: 20px
+  padding-top : 5px
+  padding-bottom : 10px
+  color:#555
+  border: 2px solid #fff
+  &:hover
+    border-radius: 15px
+    border-color: #c0c0c0
+    border-style: solid
+    border-width: 2px
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.2)
+
+.product_item
+  display: block
+  color: inherit
+  a
+    color: #333
+    &:hover
+      color: #84b2d2
+  .icon
+    display :none
+    button
+      font-size: 125%
+      background : rgba(0,0,0,0)
+      border: none
+      &:hover
+        color: #84b2d2
+  .left_top
+    position: absolute
+    top: 10px
+    left: 10px
+    padding: 10px
+    z-index: 2
+  .right_bottom
+    position: absolute
+    right: 10px
+    bottom: 10px
+    padding: 10px
+    z-index: 2
+
+.product_name,.product_price,.product_moq
+  margin-left:  20px
+
+.product_name
+  width: 210px
+  word-break: break-all
+  text-overflow: ellipsis
+  display: -webkit-box /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2 /** 显示的行数 **/
+  overflow: hidden  /** 隐藏超出的内容 **/
+
+.product_image
+  width : 210px
+  height : 256px
+  img
+    width :100%
+    height :100%
