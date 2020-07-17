@@ -16,7 +16,7 @@
                 </a>
               </div>
               <div class= 'product_info'>
-                <div class= 'product_name'><a :href='good.ali_url' target = '_blank' :title='good.name'>{{ good.name }}</a></div>
+                <div class= 'product_name'><a :title='good.name'>{{ good.name }}</a></div>
                 <div class= 'product_price'>
                   <span class ='price b'>{{ good.min_unit_price }} - {{ good.max_unit_price }} &dollar;</span>
                   &nbsp;&frasl;&nbsp;

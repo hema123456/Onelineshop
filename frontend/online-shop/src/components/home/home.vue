@@ -18,7 +18,7 @@
              <button class='icon-heart'></button>
           </div>
           <div class= 'product_image'>
-            <a :href='item.ali_url' target = '_blank' :title='item.name'>
+            <a :title='item.name'>
             <img :src= 'item.pic_url'>
             </a>
           </div>

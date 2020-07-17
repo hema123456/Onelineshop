@@ -48,7 +48,7 @@ class GoodsListViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.Retriev
     filter_class = GoodsFilter
     # 设置filter的类为我们自定义的类
     serializer_class = GoodSerializer
-    throttle_classes = (UserRateThrottle, AnonRateThrottle)
+    # throttle_classes = (UserRateThrottle, AnonRateThrottle)
     # 搜索
     search_fields = ('name', 'goods_brief', 'goods_desc')
     # 排序

@@ -18,7 +18,7 @@ class GoodsCategory(models.Model):
     )
 
     name = models.CharField('类别名', default="", max_length=30, help_text="类别名")
-    code = models.CharField("类别code", default="", max_length=30, help_text="类别code")
+    code = models.CharField("类别编号", default="", max_length=30, help_text="类别code")
     desc = models.TextField("类别描述", default="", help_text="类别描述")
     # 目录树级别
     category_type = models.IntegerField("类目级别", choices=CATEGORY_TYPE, help_text="类目级别")
@@ -107,14 +107,14 @@ class Banner(models.Model):
 
 class GoodsImage(models.Model):
     """
-    商品轮播图
+    商品图片
     """
     goods = models.ForeignKey(Goods, on_delete=models.CASCADE, verbose_name="商品", related_name="images")
     image = models.ImageField(upload_to="goods/images/", verbose_name="图片", null=True, blank=True)
     add_time = models.DateTimeField("添加时间", default=datetime.now)
 
     class Meta:
-        verbose_name = '商品轮播'
+        verbose_name = '商品图片'
         verbose_name_plural = verbose_name
 
     def __str__(self):
