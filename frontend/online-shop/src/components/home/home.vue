@@ -55,6 +55,9 @@ export default {
   },
   created () {
     this.getGoods()
+
+    let ip = localStorage.getItem('ip')
+    this.$cookieStore.setCookie('flr_ck_ip', ip, 60)
   },
   methods: {
     getGoods () {

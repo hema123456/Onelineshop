@@ -69,3 +69,13 @@ class UserLeavingMessage(models.Model):
 
     def __str__(self):
         return self.subject
+
+
+
+class UserSendEmail(models.Model):
+    """
+    用户发送邮件
+    """
+    name = models.CharField()
+    email = models.EmailField()
+    message = models.CharField()

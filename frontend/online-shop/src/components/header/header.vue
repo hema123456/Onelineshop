@@ -54,26 +54,26 @@ export default {
           content: 'contact'},
         {
           id: 5,
-          class: 'icon-twitter',
-          title: '',
-          link: '#',
+          class: 'icon-phone',
+          title: 'phone',
+          link: '/contact',
           content: ''},
         {
           id: 6,
-          class: 'icon-facebook2',
-          title: '',
-          link: '#',
+          class: 'icon-envelop',
+          title: 'mail',
+          link: '/contact',
           content: ''},
         {
           id: 7,
-          class: 'icon-linkedin',
-          title: '',
-          link: '#',
+          class: 'icon-social_wechat',
+          title: 'wechat',
+          link: '/contact',
           content: ''},
         {
           id: 8,
           class: 'icon-cart cart-button',
-          title: '',
+          title: 'cart',
           link: '#',
           content: ''}
       ]

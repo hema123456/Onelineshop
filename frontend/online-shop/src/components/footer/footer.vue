@@ -22,13 +22,14 @@
 </div>
 </div>
 <div class= 'col-4'>
-<div class = 'icons'>
-    <ul class = 'menu fl'>
-      <li><a href="#" title="" rel="me" target="_blank" class="icon-twitter"></a></li>
-      <li><a href="#" title="" rel="me" target="_blank" class="icon-facebook2"></a></li>
-      <li><a href="#" title="" rel="me" target="_blank" class="icon-linkedin"></a></li>
-    </ul>
-</div>
+    <div class='footer-borad'>
+        <div class='icon icon-envelop'></div>
+        <div>felix felix.liu@flexrope.cn<br>aaron aaron.zhou@flexrope.cn</div>
+        <div class='icon icon-phone'></div>
+        <div>felix +8613265740369 <br>aaron +8615674867519 </div>
+        <div class='icon icon-social_wechat'></div>
+        <div>felix 13265740369<br>aaron 15674867519</div>
+    </div>
 </div>
 
 </div>
@@ -109,7 +110,7 @@ p,h6
   margin-inline-start: 0px;
   margin-inline-end: 0px
 
-.footer-menu,.main-menu
+.footer-menu,.main-menu,.footer-borad
   padding: 10px 20px 10px 0px
   h6
     text-transform: uppercase;
@@ -117,11 +118,7 @@ p,h6
     letter-spacing: 1px;
     border-bottom: 1px solid #b1aca1
 
-.icons
+.footer-borad
   margin-top: 25px
-  li
-    display: inline
-    padding: 0 5px
-
 
 </style>
