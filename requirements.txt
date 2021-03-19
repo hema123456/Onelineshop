@@ -16,7 +16,7 @@ django-import-export==2.1.0
 django-redis==4.12.1
 django-redis-cache==2.1.1
 django-rest-framework==0.1.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 DjangoUeditor==1.8.143
 drf-extensions==0.6.0
